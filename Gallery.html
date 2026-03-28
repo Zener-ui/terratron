@@ -1,0 +1,205 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terratron: Nebula Quest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="TStyles.css">
+</head>
+<body>
+
+  <!-- PARTICLES -->
+  <div id="tsparticles"></div>
+
+  <!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+
+    <!-- LOGO -->
+    <h2 class="logo">TERRATRON</h2>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- NAV LINKS -->
+    <nav class="nav-links" id="navLinks">
+      <a href="Index.html">HOME</a>
+      <a href="About.html">ABOUT</a>
+      <a href="Books.html">BOOKS</a>
+      <a href="Gallery.html">GALLERY</a>
+      <a href="Contact.html">CONTACT</a>
+
+      <!-- 🔥 MOBILE BUTTON (ONLY FOR MENU) -->
+      <a href="https://www.amazon.com/Terratron-Gods-Vol-1-Nathaniel-Bernadeau-ebook/dp/B0DR7DTRCR/ref=sr_1_1?dib=eyJ2IjoiMSJ9.lnwCU6amaiSeGJ1eqNlfbg.RZAKWgDuUv9a7rSuSyF3ywDvUEsa48Vy-Ku5Xlciaw0&dib_tag=se&keywords=Terratron%3A+Gods+Of+Mars+Vol+1+Nathaniel+Bernadeau&qid=1744828221&s=digital-text&sr=1-1" class="buy-btn mobile-btn">BUY NOW</a>
+    </nav>
+
+    <!-- 🔥 DESKTOP BUTTON (FAR RIGHT) -->
+    <a href="https://www.amazon.com/Terratron-Gods-Vol-1-Nathaniel-Bernadeau-ebook/dp/B0DR7DTRCR/ref=sr_1_1?dib=eyJ2IjoiMSJ9.lnwCU6amaiSeGJ1eqNlfbg.RZAKWgDuUv9a7rSuSyF3ywDvUEsa48Vy-Ku5Xlciaw0&dib_tag=se&keywords=Terratron%3A+Gods+Of+Mars+Vol+1+Nathaniel+Bernadeau&qid=1744828221&s=digital-text&sr=1-1" class="buy-btn desktop-btn">BUY NOW</a>
+
+  </div>
+</header
+
+<!-- VISUAL HERO -->
+<section class="visual-hero">
+
+  <span class="section-tag">GALLERY</span>
+
+  <h1 class="visual-title">
+    Visual <span>Universe</span>
+  </h1>
+
+  <p class="visual-sub">
+    Explore the visuals, covers, and merchandise from the Terratron universe.
+  </p>
+
+</section>
+
+
+<!-- DIVIDER -->
+<div class="section-divider"></div>
+
+
+<!-- GALLERY -->
+<section class="gallery">
+
+  <div class="gallery-container">
+
+    <span class="section-tag">ARTWORK & MERCH</span>
+    <h2>Cinematic Gallery</h2>
+
+    <div class="gallery-row">
+
+      <!-- BIG IMAGE -->
+      <div class="gallery-item big">
+        <img src="Images/tera.png" alt="">
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="gallery-small">
+
+        <!-- ROW 1 -->
+        <div class="row">
+          <div class="gallery-item">
+            <img src="Images/vol1.png">
+          </div>
+          <div class="gallery-item">
+            <img src="Images/vol2.jpg">
+          </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row">
+          <div class="gallery-item">
+            <img src="Images/shirt1.png">
+          </div>
+          <div class="gallery-item">
+            <img src="Images/shirt2.png">
+          </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="row">
+          <div class="gallery-item">
+            <img src="Images/shirt3.png">
+          </div>
+          <div class="gallery-item">
+            <img src="Images/shirt4.png">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+ <footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-col">
+      <h3>TERRATRON</h3>
+      <p>
+        A gripping sci-fi saga of terraforming, space exploration, and humanity’s fight for survival across the galaxy.
+      </p>
+    </div>
+
+    <!-- CENTER -->
+    <div class="footer-col">
+      <h4>NAVIGATE</h4>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Books.html">Books</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-col">
+      <h4>GET THE BOOKS</h4>
+      <ul>
+        <li><a href="Books.html">Book 1: Gods of Mars</a></li>
+        <li><a href="Books.html">Book 2: A New Frontier</a></li>
+        <li><a href="Gallery.htm">Merchandise Store</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>Copyright © 2025 American Book Experts. All rights reserved.</p>
+  </div>
+
+</footer>
+
+
+  <!-- PARTICLES -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles", {
+      particles: {
+        number: { value: 80 },
+        size: { value: 2 },
+        move: { enable: true, speed: 1 },
+        links: { enable: true, color: "#00ffcc" }
+      }
+    });
+    
+    const row = document.querySelector(".science-row");
+
+function next() {
+  row.scrollBy({ left: 320, behavior: "smooth" });
+}
+
+function prev() {
+  row.scrollBy({ left: -320, behavior: "smooth" });
+}
+
+    const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+  hamburger.classList.toggle("active");
+});
+  </script>
+
+</body>
+</html>
